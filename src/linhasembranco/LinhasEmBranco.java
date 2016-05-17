@@ -29,26 +29,25 @@ public class LinhasEmBranco {
         };
 
         for (File arquivo : dir.listFiles(filtro)) {
-                   
+            System.out.println("linhasembranco.LinhasEmBranco.main()");
             System.out.println(arquivo.getPath());
             FileReader leitor = new FileReader(arquivo);
             BufferedReader leitorImp = new BufferedReader(leitor);
-                        
-            
+
             String linha = "";
-            
-            int cont=0;
+
+            int cont = 0;
             while ((linha = leitorImp.readLine()) != null) {
                 cont++;
-                
-                if (linha.isEmpty()){
+
+                if (linha.isEmpty()) {
                     System.out.println("LINHA: " + cont);
                 }
-            }                        
+            }
 
             Scanner s = new Scanner(System.in);
             String a = s.next();
-            
+
         }
 
     }
