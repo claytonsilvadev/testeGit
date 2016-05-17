@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author clayton
+ * @author diego
  */
 public class LinhasEmBranco {
 
