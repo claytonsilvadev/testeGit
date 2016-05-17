@@ -20,6 +20,8 @@ public class LinhasEmBranco {
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
         File dir = new File("/home/clayton/Área de Trabalho/UniFi/Arquivos Com Ajuste/SPED 03-15");
+        
+        System.out.println("Teste de stash");        
 
         FileFilter filtro = new FileFilter() {
             @Override
