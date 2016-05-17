@@ -24,7 +24,7 @@ public class LinhasEmBranco {
         FileFilter filtro = new FileFilter() {
             @Override
             public boolean accept(File pathname) {
-                return pathname.getName().toLowerCase().endsWith(".pdf");
+                return pathname.getName().toLowerCase().endsWith(".txt");
             }
         };
 
